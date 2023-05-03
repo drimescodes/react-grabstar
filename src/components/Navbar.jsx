@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-[#263959] ">
+    <div className="w-full bg-[#263959]">
       <div className="max-w-full w-[90%] m-auto flex justify-between items-center text-white py-4 ">
         <div className="">
           <img src={logo} alt="" className="h-25 w-25" />
