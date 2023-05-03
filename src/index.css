@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.freelancer-spin {
+  @apply absolute;
+  animation: spin 10s linear infinite;
+}
+
+.ig-spin {
+  @apply absolute;
+  animation: spin 12s linear infinite;
+}
+
+.client-spin {
+  @apply absolute;
+  animation: spin 14s linear infinite;
+}
+
+.messenger-spin {
+  @apply absolute;
+  animation: spin 16s linear infinite;
+}

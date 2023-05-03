@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
+#root{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.icon-spin {
+  animation: spin 10s linear infinite;
+}
+.icon-spin-ig {
+  animation: spin 12s linear infinite;
+}
+.icon-spin-client {
+  animation: spin 14s linear infinite;
+}
+.icon-spin-messenger {
+  animation: spin 16s linear infinite;
+} */
