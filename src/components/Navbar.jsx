@@ -46,9 +46,8 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`absolute z-10 p-4 bg-white w-full px-8 lg:hidden transform transition-all duration-500 ease-in-out ${
-          toggle ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`absolute z-10 p-4 bg-white w-full px-8 lg:hidden transform transition-all duration-500 ease-in-out ${toggle ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         <ul>
           <li className="p-4 hover:bg-gray-100 font-bold">Home</li>
@@ -57,7 +56,7 @@ const Navbar = () => {
           <li className="p-4 hover:bg-gray-100 font-bold">Log in</li>
         </ul>
         <div className="my-4">
-        <button className="px-4 py-2 rounded-md bg-[#1A906B] font-bold">
+          <button className="px-4 py-2 rounded-md bg-[#1A906B] font-bold">
             Create Account
           </button>
         </div>

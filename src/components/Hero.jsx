@@ -15,12 +15,41 @@ Better Reviews</h1>
           
           {/* image section of hero*/}
         
-  <img src={heroColor1} alt="Color Image 1" className="hidden md:block z-0 h-[500px] absolute  right-0 md:top-0" />
-  <img src={heroColor2} alt="Color Image 2" className="hidden md:block z-[2] h-[450px] absolute right-0  bottom-0  " />
+  <img src={heroColor1} alt="Color Image 1" className="hidden lg:block z-0 h-[500px] absolute  right-0 md:top-0" />
+  <img src={heroColor2} alt="Color Image 2" className="hidden lg:block z-[2] h-[450px] absolute right-0  bottom-0  " />
   <img src={heroGirl} alt="" className="z-[10] -pt-14 self-start relative mt-[5rem] ml-[3rem] md:mt-0" />
   <div className='overflow-hidden'>
-  <img src={heroColor1_2} alt="Color Image 1" className="md:hidden z-0 h-[450px] absolute right-0 top-[30rem] " />
-  <img src={heroColor2} alt="Color Image 2" className="md:hidden z-[2] h-[250px] absolute right-[-.4px] bottom-[-1.2rem]" />
+  <img
+  src={heroColor1_2}
+  alt="Color Image 1"
+  className="md:hidden z-0 h-[450px] absolute right-0"
+  style={
+    window.innerWidth < 768
+      ? { top: "30rem" }
+      : window.innerWidth > 768 && window.innerWidth < 1024
+      ? { top: "-200rem" }
+      : { top: "30rem" }
+  }
+/>
+<img
+  src={heroColor2}
+  alt="Color Image 2"
+  className="md:hidden z-[2] h-[250px] absolute right-[-.4px]"
+  style={
+    window.innerWidth < 768
+      ? { bottom: "-1.2rem" }
+      : window.innerWidth >= 768 && window.innerWidth < 1024
+      ? { bottom: "-0.6rem" }
+      : { bottom: "-1.2rem" }
+  }
+/>
+
+
+
+
+
+
+
 </div>
 
     <div className='z-10 absolute top-1/2 left-1/2  md:block'>
@@ -48,7 +77,7 @@ Better Reviews</h1>
       ? { left: "40%", top: "40%" }
       : window.innerWidth >= 640 && window.innerWidth < 1024
       ? { left: "280%", top: "-100%" }
-      : { left: "250%", top: "-120%" }
+      : { left: "250%", top: "-140%" }
   }
 />
 
