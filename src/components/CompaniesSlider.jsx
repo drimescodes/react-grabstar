@@ -12,7 +12,7 @@ const CompaniesSlider = () => {
     { src: Instagram, alt: "Instagram" },
     { src: GitHub, alt: "GitHub" },
     { src: Stackoverflow, alt: "Stackoverflow" },
-    // Duplicate the logos to create an infinite effect
+   
     
   ];
 

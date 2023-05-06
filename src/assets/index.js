@@ -10,7 +10,7 @@ import igIcon from './igIcon.svg';
 import Dribbble from './Dribbble.svg'
 import Behance from './Behance.svg'
 import Instagram from './Instagram.svg'
-import GitHub from './GitHub.svg'
+import Github from './Github.svg'
 import Stackoverflow from './StackOverflow.svg'
 
 
@@ -36,7 +36,7 @@ export {
     Dribbble,
     Behance,
     Instagram,
-    GitHub,
-    Stackoverflow
+    Github,
+    Stackoverflow,
 
 }
