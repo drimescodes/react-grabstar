@@ -7,6 +7,11 @@ import messengerIcon from './messengerIcon.svg';
 import freelancerIcon from './freelancerIcon.svg';
 import clientIcon from './clientIcon.svg';
 import igIcon from './igIcon.svg';
+import Dribbble from './Dribbble.svg'
+import Behance from './Behance.svg'
+import Instagram from './Instagram.svg'
+import GitHub from './GitHub.svg'
+import Stackoverflow from './StackOverflow.svg'
 
 
 
@@ -27,6 +32,11 @@ export {
     freelancerIcon,
     clientIcon,
     igIcon,
-    heroColor1_2
+    heroColor1_2,
+    Dribbble,
+    Behance,
+    Instagram,
+    GitHub,
+    Stackoverflow
 
 }
