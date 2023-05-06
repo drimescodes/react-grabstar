@@ -23,6 +23,8 @@ import Stackoverflow from './Stackoverflow.svg'
 
 
 
+
+
 export {
     logo,
     heroGirl,
@@ -37,6 +39,6 @@ export {
     Behance,
     Instagram,
     Github,
-    Stackoverflow,
+    Stackoverflow
 
 }

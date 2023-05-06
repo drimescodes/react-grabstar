@@ -3,7 +3,7 @@ import { Behance } from "../assets";
 import { Instagram } from "../assets";
 import { Github } from "../assets";
 import { Stackoverflow } from "../assets";
-import "./CompaniesSlider.css";
+
 
 const CompaniesSlider = () => {
   const companyLogos = [
@@ -12,8 +12,6 @@ const CompaniesSlider = () => {
     { src: Instagram, alt: "Instagram" },
     { src: Github, alt: "GitHub" },
     { src: Stackoverflow, alt: "Stackoverflow" },
-   
-
     
   ];
 
