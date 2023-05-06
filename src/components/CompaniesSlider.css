@@ -6,24 +6,7 @@
 }
 
 .slide {
-  padding: 0 3rem;
-}
-
-/* For mobile view */
-@media (max-width: 640px) {
-  .slide {
-    padding: 0 1rem;
-  }
-  .slide img {
-    width: 3rem; 
-  }
-}
-
-/* For tablet view */
-@media (min-width: 641px) and (max-width: 1024px) {
-  .slide {
-    padding: 0 2rem;
-  }
+  padding: 0 1.5rem;
 }
 
 @keyframes slide {

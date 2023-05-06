@@ -11,7 +11,7 @@ import Dribbble from './Dribbble.svg'
 import Behance from './Behance.svg'
 import Instagram from './Instagram.svg'
 import Github from './Github.svg'
-import Stackoverflow from './StackOverflow.svg'
+import Stackoverflow from './Stackoverflow.svg'
 
 
 
