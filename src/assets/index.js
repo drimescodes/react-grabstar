@@ -12,6 +12,7 @@ import Behance from './Behance.svg'
 import Instagram from './Instagram.svg'
 import Github from './Github.svg'
 import Stackoverflow from './Stackoverflow.svg'
+import heroImage2 from './heroImage2.svg'
 
 
 
@@ -39,6 +40,7 @@ export {
     Behance,
     Instagram,
     Github,
-    Stackoverflow
+    Stackoverflow,
+    heroImage2,
 
 }
