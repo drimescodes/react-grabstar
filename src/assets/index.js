@@ -13,6 +13,7 @@ import Instagram from './Instagram.svg'
 import Github from './Github.svg'
 import Stackoverflow from './Stackoverflow.svg'
 import heroImage2 from './heroImage2.svg'
+import hero3image from './hero3image.svg'
 
 
 
@@ -42,5 +43,6 @@ export {
     Github,
     Stackoverflow,
     heroImage2,
+    hero3image
 
 }

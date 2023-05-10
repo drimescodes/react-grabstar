@@ -1,4 +1,5 @@
-import { Navbar, Hero, CompaniesSlider, Hero2, MarketPlace} from './components';
+import { Navbar, Hero, CompaniesSlider, Hero2, MarketPlace, Hero3} from './components';
+
 
 const App = () => {
 return (
@@ -8,6 +9,7 @@ return (
   <CompaniesSlider />
   <Hero2 />
   <MarketPlace />
+  <Hero3 />
   </div>
 )
 

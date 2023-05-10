@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import CompaniesSlider from "./CompaniesSlider";
 import Hero2 from "./Hero2";
 import  MarketPlace  from "./MarketPlace";
+import Hero3 from "./Hero3";
 
 
 export {
@@ -11,7 +12,7 @@ export {
     CompaniesSlider,
     Hero2,
     MarketPlace,
-    
+    Hero3,
     
 
 }

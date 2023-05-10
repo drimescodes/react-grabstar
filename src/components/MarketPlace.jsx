@@ -41,7 +41,7 @@ const MarketPlace = () => {
     ];
 
     return (
-        <div className="w-full bg-white relative min-h-screen overflow-hidden ">
+        <div className="w-full bg-[#EFF1FD] relative min-h-screen overflow-hidden ">
             <div className="max-w-full w-[90%] m-auto grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-x-4 gap-y-8 py-24">
                 <div className="p-8 text-[#263959]  col-span-full md:col-span-1 left--[100px] text-center md:text-left transform hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer no-tap-highlight">
                     <p className="font-bold text-3xl pb-4 ">Explore the Marketplaces</p>
@@ -57,7 +57,7 @@ const MarketPlace = () => {
                     />
                 ))}
 
-                <div className="border  p-8 rounded-lg flex flex-col bg-[#263959] gap-4 max-w-[80%] justify-center h-60  text-[#3EE8B5] shadow-custom transform hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer no-tap-highlight">
+                <div className="border  p-8 rounded-lg flex flex-col bg-[#263959] border-[#263959] gap-4 md:max-w-[80%] justify-center h-60  text-[#3EE8B5] shadow-custom transform hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer no-tap-highlight">
 
                     <p className=" font-semibold max-w-[8rem] text-center self-center text-white transform hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer no-tap-highlight">50+
                         Categories
