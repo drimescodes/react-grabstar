@@ -1,6 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@300;400;500;600;700&display=swap');
+
+#root{
+  font-family: 'Poppins', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Disabling the default light-blue overlay that comes with browsers */
+.no-tap-highlight {
+  -webkit-tap-highlight-color: transparent;
+}
 
 
 @keyframes spin {

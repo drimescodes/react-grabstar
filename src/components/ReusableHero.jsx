@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const ReusableHero = ({ title, subtitle, buttonText, backgroundImage }) => {
     return (
-        <div className="w-full bg-white relative min-h-screen overflow-hidden">
+        <div className="w-full bg-white relative min-h-screen overflow-hidden ">
       <div className="max-w-full w-[90%] m-auto md:flex justify-between    py-8 gap-40">
       <div
         className=" bg-cover bg-top  w-[50%]"
