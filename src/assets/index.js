@@ -14,6 +14,8 @@ import Github from './Github.svg'
 import Stackoverflow from './Stackoverflow.svg'
 import heroImage2 from './heroImage2.svg'
 import hero3image from './hero3image.svg'
+import hero3invitation from './hero3invitation.svg'
+import hero4image from './hero4image.svg'
 
 
 
@@ -43,6 +45,8 @@ export {
     Github,
     Stackoverflow,
     heroImage2,
-    hero3image
+    hero3image,
+    hero3invitation,
+    hero4image,
 
 }
