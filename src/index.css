@@ -16,7 +16,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-
+/* The spinning icons */
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -47,7 +47,7 @@
 }
 
 
-
+/* The product sliders */
 
 .slider {
   white-space: nowrap;
@@ -72,4 +72,20 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+
+/* Customizing the slider pagination and navigation */
+.swiper-pagination-bullet {
+  background: #906CF9; /* your desired color */
+  width: 20px; /* your desired size */
+  height: 20px; /* your desired size */
+ position: relative
+ ;
+  
+}
+
+.swiper-pagination {
+  positon:absolute;
+  bottom: -10000000px;
 }
