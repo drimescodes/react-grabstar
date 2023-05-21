@@ -74,9 +74,9 @@ const reviews = [
 SwiperCore.use([Pagination, Navigation, Autoplay]);
 const ReviewSliders = () => {
   return (
-    <div className="w-full bg-white relative min-h-screen  text-[#263959] py-24 ">
-      <div className="max-w-full w-[90%] m-auto relative ">
-        <div className="text-[#263959] flex items-center justify-center text-center font-bold text-5xl ">
+    <div className="w-full bg-white  min-h-screen  text-[#263959] py-24 ">
+      <div className="max-w-full w-[90%] ml-8 md:m-auto ">
+        <div className="text-[#263959] flex items-center mr-8 justify-center text-center font-bold text-5xl m-auto">
           <p>
             Check Out <span className="block pt-4"> Recent Review</span>
           </p>
@@ -90,7 +90,7 @@ const ReviewSliders = () => {
           spaceBetween={50} 
           slidesPerView={3} 
           autoplay={{
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={

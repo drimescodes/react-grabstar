@@ -3,7 +3,7 @@ import { Navbar, Hero, CompaniesSlider, Hero2, MarketPlace, Hero3, Hero4, Review
 
 const App = () => {
 return (
-  <div>
+  <div className='overflow-hidden'>
   <Navbar />
   <Hero />
   <CompaniesSlider />

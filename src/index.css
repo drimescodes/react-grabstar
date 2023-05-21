@@ -80,12 +80,12 @@
   background: #906CF9; /* your desired color */
   width: 20px; /* your desired size */
   height: 20px; /* your desired size */
- position: relative
- ;
+
+ 
   
 }
 
-.swiper-pagination {
-  positon:absolute;
-  bottom: -10000000px;
+
+.footer-grid {
+  
 }

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const ReviewCard = ({ image, name, role, review, stars }) => {
     return (
-      <div className="border  p-4 rounded-2xl w-[20rem] bg-white shadow-custom mb-12">
+      <div className="border  p-4 rounded-2xl w-[20rem] bg-white shadow-custom mb-12 ">
         <div className="flex  items-center gap-4 py-4">
           <div className="h-8 rounded-full">
             <img src={image} alt="" className="h-full" />
