@@ -16,6 +16,10 @@ import heroImage2 from './heroImage2.svg'
 import hero3image from './hero3image.svg'
 import hero3invitation from './hero3invitation.svg'
 import hero4image from './hero4image.svg'
+import Grabstar from './Grabstar.svg'
+import  IgSocial  from "./igSocialIcon.svg"
+import fbSocial from "./fbSocialIcon.svg"
+
 
 
 
@@ -48,5 +52,8 @@ export {
     hero3image,
     hero3invitation,
     hero4image,
+    Grabstar,
+    IgSocial,
+    fbSocial,
 
 }
